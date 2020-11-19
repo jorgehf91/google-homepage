@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #555;
+}
+
+.google-logo {
+    display: block;
+    margin: 0 auto;
+}   
+
+#search-form {
+    text-align: center;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+ul {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    list-style-type: none;
+    text-decoration: none;
+}
