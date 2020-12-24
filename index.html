@@ -4,6 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
+    
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,23 +13,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/stylesheets/styles.css">
     </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li> 
-                    <li><a href="#">Gmail</a></li> 
-                    <li><a href="#">Images</a></li> 
-                    <li><a class="google-apps" href="https://www.google.com/intl/en/about/products?tab=wh" title="Google apps"></a></li>    
-                    <li><a href="#"><button>Sign In</button></a></li> 
-                </ul>
-            </nav>
-        <img class="google-logo" src="assets/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </header>
+    
+    
+        <body>
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Store</a></li> 
+                            <li><a href="#">Gmail</a></li> 
+                            <li><a href="#">Images</a></li> 
+                            <li><a class="google-apps" href="https://www.google.com/intl/en/about/products?tab=wh" title="Google apps"></a></li>    
+                            <li><a href="#"><button class="btn-sign">Sign In</button></a></li> 
+                        </ul>
+                    </nav>
+                </header>
 
-        <form id="search-form">
-            <input type="text">
-        </form>
+            <div class="wrapper-google-logo">
+                <img class="google-logo" src="assets/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            
+                <form>
+                    <img id="search-icon" src="assets/images/search.svg" alt="Search Icon on Search Bar">
+                    <input class="search-form" type="text">
+                    <img id="mic-icon" src="assets/images/googlemic_clr_24px.svg" alt="Microphone Icon">
+                </form>
+         
+
+                <div class="btn-search-wrapper">
+                    <a class="btn-search-form" href="#"><button>Google Search</button></a>
+                    <a class="btn-lucky" href="#"><button>I'm Feeling Lucky</button></a>
+                </div>
+            <div class="footer-wrapper">
+                <footer>
+                    <ul>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li> 
+                        <li><a href="#">How Search works</a></li> 
+                        <li><a href="#">Privacy</a></li>   
+                        <li><a href="#">Terms</a></li>  
+                        <li><a href="#">Settings</a></li>  
+                    </ul>
+                </footer>
+            </div>
+
     </body>
 </html>
