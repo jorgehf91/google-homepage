@@ -68,6 +68,7 @@ li a {
     display: inline-block;
     margin: 2px;
     padding: 8px;
+    color: rgb(141,178,221) !important;
     background-color: #ddd;
     text-decoration: none;
 }
@@ -76,25 +77,11 @@ nav li:nth-child(3) {
     margin-left: 70%;
     
 }
-/*
-nav li:nth-child(4) {
-    float: right;
-
-}
-
-nav li:nth-child(5) {
-    float: right;
-
-}
-
-nav li:nth-child(6) {
-    float: right;
-
-}*/
 
 li a:hover {
     color: #000;
     background-color: yellowgreen;
+    text-decoration-line: underline;
 }
 
 /* Styling for Sign Up Button */
@@ -158,20 +145,21 @@ form {
 
 
 /* Footer - Footer Menu */
-.footer-wrapper {
   
-}
-
-footer  {
-    position: sticky;
+footer {
+    position: absolute;
     bottom: 0;
+    clear:both;
+    height: 50px;
 }
 
 footer li  {
-     padding: 8px;
+    padding: 8px;
+    font-size: 14px;
+    color: rgb(141,178,221) !important;
 }
 
 footer li:nth-child(3) {
-    margin-right: 30%;
+    margin-right: 750px;
 }
 
