@@ -50,7 +50,7 @@ table {
 END CSS RESET
 **/
 
-
+/* Navbar */
 ul  {
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -59,28 +59,46 @@ ul  {
 }
 
 li {
+    
     text-align: center;
     float: left;
 }
 
-a {
-    display: block;
+li a {
+    display: inline-block;
+    margin: 2px;
     padding: 8px;
     background-color: #ddd;
     text-decoration: none;
 }
 
+nav li:nth-child(3) {
+    margin-left: 70%;
+    
+}
+/*
+nav li:nth-child(4) {
+    float: right;
+
+}
+
+nav li:nth-child(5) {
+    float: right;
+
+}
+
+nav li:nth-child(6) {
+    float: right;
+
+}*/
 
 li a:hover {
     color: #000;
     background-color: yellowgreen;
 }
 
+/* Styling for Sign Up Button */
 .btn-sign {
-    position: absolute;
-    right: 0;
-    margin-right: 25px;
-    margin-top: 4px;
     padding: 6px 9px;
     border: 1px solid #4285f4;
     font-weight: bold;
@@ -89,7 +107,7 @@ li a:hover {
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
 
-
+/* Google's Logo */
 .google-logo {
     clear: both;
     display: block;
@@ -97,6 +115,7 @@ li a:hover {
     height: 90px;
 }
 
+/* Search Form */
 form {
     display: block;
     width: 487px;
@@ -106,7 +125,7 @@ form {
     box-sizing: border-box;
 }
 
-input {
+.search-form {
     width: 387px;
     height: 18px;
     box-shadow: none;
@@ -118,38 +137,41 @@ input {
     vertical-align: middle;
 }
 
-
+/* Search Buttons */
 .btn-search-wrapper {
-    display: block;
+    box-sizing: border-box;
+    display: inline-block;
     width: 400px;
-    margin: 0 auto;
     font-family: arial, sans-serif;
     box-shadow: none;
     text-shadow: none;
-    float: left;
+ 
 }
-
-
 
 .btn-search {
-    display: block;
     padding: 8px;
 }
 
-.btn-lucky {
-    display: block;
+.btn-lucky { 
     padding: 8px;
-    
-
 }
 
+
+/* Footer - Footer Menu */
 .footer-wrapper {
   
 }
 
 footer  {
-    position: absolute;
+    position: sticky;
     bottom: 0;
-    
+}
+
+footer li  {
+     padding: 8px;
+}
+
+footer li:nth-child(3) {
+    margin-right: 30%;
 }
 
