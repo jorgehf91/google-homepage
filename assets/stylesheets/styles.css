@@ -60,7 +60,7 @@ ul  {
 }
 
 li {
-    
+    margin-top: 4px;
     text-align: center;
     float: left;
 }
@@ -83,6 +83,7 @@ li a:hover {
     text-decoration-line: underline;
 }
 
+
 /* Styling for Sign Up Button */
 .btn-sign {
     padding: 6px 9px;
@@ -91,6 +92,7 @@ li a:hover {
     outline: none;
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    margin-top: -5px;
 }
 
 nav {
