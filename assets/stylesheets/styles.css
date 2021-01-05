@@ -149,16 +149,20 @@ form {
 }
 
 .btn-search-form, .btn-lucky {
+    margin-top: 17px;
     background-color: rgba(41,41,41,0.9);
-   padding-left: 16px;
-   padding-right: 16px;
-   min-width: 54px;
-   height: 36px;
-   color: rgb(60,64,67);
-   border: 1px;
-   font-size: 14px;
-   font-weight: 400px;
-   opacity: 0.85;
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 54px;
+    height: 36px;
+    color: rgb(60,64,67);
+    border: 1px;
+    font-size: 14px;
+    font-weight: 400px;
+    opacity: 0.85;
+    box-shadow: none;
+    outline-color: rgb(85,85,85);
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
 }
 
 
