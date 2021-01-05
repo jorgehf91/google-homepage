@@ -51,6 +51,7 @@ END CSS RESET
 **/
 
 /* Navbar */
+
 ul  {
     font-family: arial, sans-serif;
     font-size: 13px;
@@ -79,8 +80,6 @@ nav li:nth-child(3) {
 }
 
 li a:hover {
-    color: #000;
-    background-color: yellowgreen;
     text-decoration-line: underline;
 }
 
@@ -94,12 +93,18 @@ li a:hover {
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
 
+nav {
+    height: 27px;
+}
+
 /* Google's Logo */
+
+
 .google-logo {
-    clear: both;
     display: block;
     margin: 0 auto;
     height: 90px;
+    margin-top: 140px;
 }
 
 /* Search Form */
@@ -110,6 +115,7 @@ form {
     border: solid rgb(220, 220, 220) 1px;
     padding: 8px;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .search-form {
@@ -127,17 +133,12 @@ form {
 /* Search Buttons */
 
 .btn-search-wrapper {
-    clear: both;
     width: 400px;
     height: 40px;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
-    /*
-    box-sizing: border-box;
-    display: inline-block;
-    width: 400px;
-    */
+    box-sizing: border-box;  
     font-family: arial, sans-serif;
     box-shadow: none;
     text-shadow: none;
