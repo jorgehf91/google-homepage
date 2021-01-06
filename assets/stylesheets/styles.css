@@ -69,8 +69,7 @@ li a {
     display: inline-block;
     margin: 2px;
     padding: 8px;
-    color: rgb(141,178,221) !important;
-    background-color: #ddd;
+    color: #000;
     text-decoration: none;
 }
 
@@ -83,16 +82,22 @@ li a:hover {
     text-decoration-line: underline;
 }
 
+.material-icons:hover {
+    text-decoration: none;
+}
 
 /* Styling for Sign Up Button */
 .btn-sign {
     padding: 6px 9px;
     border: 1px solid #4285f4;
+    border-radius: 2px;
     font-weight: bold;
+    font-size: 14px;
     outline: none;
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     margin-top: -5px;
+    color: #fff;
 }
 
 nav {
@@ -160,6 +165,7 @@ form {
     height: 36px;
     color: rgb(60,64,67);
     border: 1px;
+    border-radius: 2px;
     font-size: 14px;
     font-weight: 400px;
     opacity: 0.85;
@@ -168,25 +174,30 @@ form {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
 }
 
+.btn-search-form:hover, .btn-lucky:hover {
+    border: 1px solid rgba(211,211,211,0.9)
+}
 
 
 /* Footer - Footer Menu */
   
 footer {
-    border-top: 1px solid gray;
+    border-top: 1px solid rgba(211, 211, 211,0.7);
+    background-color: rgba(240, 240, 240, 0.8);
     position: absolute;
     bottom: 0;
     clear:both;
     height: 50px;
+    min-width: 100%;
 }
 
-footer li  {
+footer ul li a {
     padding: 8px;
     font-size: 14px;
-    color: rgb(141,178,221) !important;
+    color: rgb(95, 99, 104) !important;
 }
 
 footer li:nth-child(3) {
-    margin-right: 750px;
+    margin-right: 740px;
 }
 
